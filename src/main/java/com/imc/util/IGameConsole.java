@@ -1,4 +1,4 @@
-package com.imc.game.console;
+package com.imc.util;
 
 
 public interface IGameConsole {

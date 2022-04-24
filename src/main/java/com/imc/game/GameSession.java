@@ -1,6 +1,10 @@
 package com.imc.game;
 
-import com.imc.model.*;
+import com.imc.model.IPlayer;
+import com.imc.model.Result;
+import com.imc.model.ResultType;
+import com.imc.model.Symbol;
+
 
 public class GameSession implements IGameSession {
     private int sessionId;

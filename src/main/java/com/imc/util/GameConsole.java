@@ -1,6 +1,4 @@
-package com.imc.game.console;
-
-import com.imc.util.ValidationHelper;
+package com.imc.util;
 
 import java.util.Scanner;
 

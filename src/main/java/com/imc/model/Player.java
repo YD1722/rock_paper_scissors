@@ -1,6 +1,6 @@
 package com.imc.model;
 
-public abstract class Player implements IPlayer {
+public abstract class Player {
     private String name;
     private Symbol move;
 
