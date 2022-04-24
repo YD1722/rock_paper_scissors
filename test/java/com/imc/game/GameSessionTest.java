@@ -17,7 +17,6 @@ public class GameSessionTest {
         player1 = new User("TEST1");
         player2 = new User("TEST2");
 
-
         gameSession = new GameSession(player1, player2);
     }
 

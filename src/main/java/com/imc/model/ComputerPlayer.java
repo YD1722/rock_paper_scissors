@@ -7,6 +7,9 @@ public class ComputerPlayer extends Player implements IComputerPlayer {
         super(name);
     }
 
+    public ComputerPlayer() {
+        super("Computer");
+    }
 
     private Symbol getRandomSymbol() {
         int randomNumber = new Random().nextInt(3);
@@ -15,6 +18,6 @@ public class ComputerPlayer extends Player implements IComputerPlayer {
 
     @Override
     public void setNextMove() {
-        this.setNextMove(this.getRandomSymbol());
+        this.setMove(this.getRandomSymbol());
     }
 }

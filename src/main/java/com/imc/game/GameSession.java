@@ -3,6 +3,7 @@ package com.imc.game;
 import com.imc.model.*;
 
 public class GameSession implements IGameSession {
+    private int sessionId;
     private IPlayer player1;
     private IPlayer player2;
 

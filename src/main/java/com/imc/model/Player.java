@@ -16,7 +16,7 @@ public abstract class Player implements IPlayer {
         return move;
     }
 
-    public void setNextMove(Symbol nextMove) {
-        this.move = nextMove;
+    public void setMove(Symbol move) {
+        this.move = move;
     }
 }
