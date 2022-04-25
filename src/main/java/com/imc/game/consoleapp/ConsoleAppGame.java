@@ -4,7 +4,7 @@ import com.imc.model.IPlayer;
 import com.imc.model.Result;
 import com.imc.model.ResultType;
 import com.imc.model.Symbol;
-import com.imc.util.IGameConsole;
+import com.imc.util.console.IGameConsole;
 
 public class ConsoleAppGame {
     protected final String EXIT_CODE = "EXIT";

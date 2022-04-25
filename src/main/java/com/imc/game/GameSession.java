@@ -5,9 +5,7 @@ import com.imc.model.Result;
 import com.imc.model.ResultType;
 import com.imc.model.Symbol;
 
-
 public class GameSession implements IGameSession {
-    private int sessionId;
     private IPlayer player1;
     private IPlayer player2;
 

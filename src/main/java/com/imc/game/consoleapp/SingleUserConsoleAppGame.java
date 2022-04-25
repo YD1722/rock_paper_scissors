@@ -2,9 +2,9 @@ package com.imc.game.consoleapp;
 
 import com.imc.game.GameSession;
 import com.imc.game.IGameSession;
-import com.imc.game.exception.GameRuntimeException;
+import com.imc.util.exception.GameRuntimeException;
 import com.imc.model.*;
-import com.imc.util.IGameConsole;
+import com.imc.util.console.IGameConsole;
 
 public class SingleUserConsoleAppGame extends ConsoleAppGame implements IConsoleAppGame {
     public SingleUserConsoleAppGame(IGameConsole iGameConsole) {

@@ -1,4 +1,4 @@
-package com.imc.game.exception;
+package com.imc.util.exception;
 
 public class GameRuntimeException extends RuntimeException {
 }

@@ -1,7 +1,7 @@
 package com.imc.game.consoleapp;
 
 import com.imc.model.Symbol;
-import com.imc.util.IGameConsole;
+import com.imc.util.console.IGameConsole;
 import com.imc.util.TestGameConsole;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

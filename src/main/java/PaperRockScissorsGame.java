@@ -1,12 +1,10 @@
-package com.imc;
-
 import com.imc.game.IGame;
 import com.imc.game.consoleapp.SingleUserConsoleAppGame;
-import com.imc.game.exception.GameRuntimeException;
-import com.imc.util.GameConsole;
-import com.imc.util.IGameConsole;
+import com.imc.util.exception.GameRuntimeException;
+import com.imc.util.console.GameConsole;
+import com.imc.util.console.IGameConsole;
 
-public class Main {
+public class PaperRockScissorsGame {
     public static void main(String[] args) {
         // TODO: Introduce DI
         IGameConsole gameConsole = new GameConsole();

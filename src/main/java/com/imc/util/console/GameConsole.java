@@ -1,4 +1,6 @@
-package com.imc.util;
+package com.imc.util.console;
+
+import com.imc.util.ValidationHelper;
 
 import java.util.Scanner;
 

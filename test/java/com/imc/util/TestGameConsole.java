@@ -1,5 +1,7 @@
 package com.imc.util;
 
+import com.imc.util.console.IGameConsole;
+
 public class TestGameConsole implements IGameConsole {
     @Override
     public String readString() {
