@@ -25,6 +25,7 @@ public class GameSession implements IGameSession {
 
         Symbol winningSymbol = GameEngine.getWinningSymbol(s1, s2);
 
+        // TODO: Enhance this logic
         if (winningSymbol == null) {
             result.setResultType(ResultType.TIE);
         } else {
